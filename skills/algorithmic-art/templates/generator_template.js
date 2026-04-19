@@ -33,6 +33,9 @@ let params = {
     seed: 12345,
     // Palette I like: earthy tones with a pop of blue
     colorPalette: ['#d97757', '#6a9bcc', '#788c5d', '#b0aea5'],
+    // Canvas dimensions as params so they're easy to change in one place
+    canvasWidth: 800,
+    canvasHeight: 800,
     // Add YOUR parameters here based on your algorithm
 };
 
@@ -52,7 +55,7 @@ function initializeSeed(seed) {
 // ============================================================================
 
 function setup() {
-    createCanvas(800, 800);
+    createCanvas(params.canvasWidth, params.canvasHeight);
 
     // Initialize seed first
     initializeSeed(params.seed);
