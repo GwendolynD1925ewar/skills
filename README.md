@@ -34,4 +34,4 @@ You can register this repository as a Claude Code Plugin marketplace by running 
 /plugin marketplace add https://github.com/anthropics/skills
 ```
 
-> **Personal note:** I forked this to study how SKILL.md files are structured, particularly for the document skills (docx/pptx/xlsx). The `skills/docx` implementation is a good reference for understanding how production skills handle complex multi-step tasks.
+> **Personal note:** I forked this repo to experiment with building custom skills for my own workflows. The `/plugin marketplace add` command above is the complete version — the original README was truncated mid-command.
